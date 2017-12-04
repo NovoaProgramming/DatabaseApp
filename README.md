@@ -1,9 +1,9 @@
 # DatabaseApp
-Database application designed for a retail gaming store. (Incomplete)
+Database application designed for a retail gaming store.
 
 This files herein are meant to be included in the www folder of a PHP Desktop application. 
 
-The page logic meant to be followed is the following order:
+The page logic to follow to demonstrate the demonstration in the Wiki for this repository is the following order:
 
 index.php -> loginProcess.php -> home.php -> managementPage.php -> databaseTables.php
 
