@@ -1,0 +1,152 @@
+/* General Elements */
+* {
+	box-sizing: border-box;
+}
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/* Header Styles */
+.header h2 {
+	text-align: center;
+	font-family: arial, sans-serif;
+	vertical-align: bottom;
+}
+
+.header table {
+	width: 100%;
+	border: 0;
+}
+
+.header th {
+	background:#67BCDB;
+	color: black;
+	text-align: center;
+	vertical-align: bottom;
+	border: 0px;
+}
+.header td {
+	background:#67BCDB;
+	color: black;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+.header p {
+	color: black;
+	font-size: 12pt;
+	text-align: justify;
+	font-family: arial, sans-serif;	
+}
+
+.header a:link {
+	color: black;
+}
+
+.header a:hover {
+	color: blue;
+}
+
+.menuItem {
+	color: black;
+	font-size: 11pt;
+	text-align: center;
+	font-family: arial, sans-serif;
+	font-weight: bold;
+}
+
+/* Side Navigation Menu */
+
+.sidenav {
+    width: 16.63%;
+	height: 500px;
+    background-color: #67BCDB;
+	float: left;
+
+}
+
+.sidenav a {
+    padding: 6px 6px 6px 6px;
+    font-size: 14px;
+	display: block;
+	text-decoration: underline;
+	
+}
+
+.sidenav a:link {
+	color: black;
+}
+
+.sidenav a:hover {
+	color: blue;
+}
+
+.sidenav b {
+    padding: 4px;
+    font-size: 16px;
+    display: block;
+}
+
+/* Main Content Area right of sidebar */
+.mainContentArea {
+    margin-left: 6px; /* Same as the width of the sidenav itself */
+	float: left;
+	max-width: 903px; /* prevents formatting from being messed up */
+}
+
+.mainContentArea iframe {
+	height: 500px;
+	width: 903px;
+}
+
+.mainContentArea table {
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	position: relative;
+	border-collapse: collapse;
+	border: 1px solid black;
+	top: 0;
+	bottom: 0;
+	left: 0; 
+}
+
+.mainContentArea th {
+	border: 1px solid black;
+	text-align: center;
+	background-color: #f49e42;
+	color: Black;	
+	font-size: 16px;
+}
+
+.mainContentArea td {
+	border: 1px solid black;
+	text-align: center;
+	color: Black;
+	font-size: 12px;
+}
+.mainContentArea tr:nth-child(even) {
+	background-color: #f2f2f2;
+
+}
+
+/* wrapper for sidebar and content area */
+
+.wrapper:after {
+	content: "";
+	display: table;
+	clear:both;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+}
+
+
+.footer td {
+	background:#67BCDB;
+	color: black;
+	text-align: center;
+	vertical-align: bottom;
+}
